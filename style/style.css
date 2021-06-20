@@ -1,0 +1,1180 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa1.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top: 10px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+/*filme principal1*/
+.filme-principal1{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa2.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal1 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal1 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler01{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler01{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+/*filme principal2*/
+.filme-principal2{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa3.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal2 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal2 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler02{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px){
+    .trailler02{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+
+/*filme principal3*/
+.filme-principal3{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa4.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal3 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal3 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler03{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler03{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+/*filme principal4*/
+.filme-principal4{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa5.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal4 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal4 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler04{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler04{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler04{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+/*filme principal5*/
+
+.filme-principal5{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa6.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal5 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal5 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler05{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler05{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler05{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+/*filme principal6*/
+
+.filme-principal6{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa7.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal6 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal6 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler06{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler06{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler06{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+
+/*filme principal7*/
+.filme-principal7{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa8.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal7 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal7 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler07{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler07{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler07{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+
+/*filme principal8*/
+.filme-principal8{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa9.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal8 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal8 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler08{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler08{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler08{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+
+/*filme principal9*/
+.filme-principal9{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa10.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal9 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal9 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler09{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler09{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler09{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+
+/*filme principal10*/
+.filme-principal10{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa11.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal10 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal10 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler10{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler10{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+
+/*filme principal11*/
+.filme-principal11{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa12.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal11 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal11 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/*filme principal12*/
+.filme-principal12{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa13.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal12 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal12 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+/*filme principal13*/
+.filme-principal13{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa14.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal13 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal13 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+
+/*filme principal15*/
+
+
+.filme-principal14{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa15.jpg');
+
+    height: 600px;
+    background-size: cover;
+    
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal15 .container{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.filme-principal15 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+
+/*filme principal15*/
+.filme-principal15{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa16.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal16 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal16 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler16{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler16{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler16{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
+
+
+/*filme principal16*/
+.filme-principal16{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa17.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal16 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal16 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+/*filme principal17*/
+.filme-principal17{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa18.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal17 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal17 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+
+/*filme principal18*/
+.filme-principal18{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa19.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal18 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal18 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+/*filme principal19*/
+.filme-principal19{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa20.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal19 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal19 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+/*filme principal20*/
+.filme-principal20{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa21.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal20 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal20 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+
+/*filme principal21*/
+.filme-principal21{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa1.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal21 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal21 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+
+/*filme principal22*/
+.filme-principal22{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/capa23.jpg');
+
+    height: 400px;
+    background-size: cover;
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal22 .sinopse{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.filme-principal22 .titulo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.trailler22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+
+@media screen and (max-width:700px) {
+    .trailler22{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .trailler22{
+        margin:auto;
+        margin-top: 10px;
+    }
+} 
